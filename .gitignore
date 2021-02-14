@@ -1,2 +1,7 @@
 /.idea
 /venv
+/bin
+/admin
+/config
+*.sass
+hometask-grebenev.txt
