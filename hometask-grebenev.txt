@@ -1,0 +1,15 @@
+команды которые надо было выполнить:
+
+git init - создание нового репозитория
+git config --global user.name 'VladimirGrebenev' - указание автора репозитория
+git config --global user.email 'grebenev-81@mail.ru' - указание почты автора
+git add . - помечаем все файлы на добавление в хранилице локальное
+git commit -m 'git lesson ITproger' - подтверждаем добавление и "коммитируем" файлы в локальный репозиторий
+git branch second - создаём новую ветку second
+git checkout second - переходим в новую ветку second
+git add . - добавляем новые файлы в папке blog в ветку second (чтобы они у нас не болтались и случайно не залились в ветку мастер)
+git commit -m 'add_new_file' - коммитим это дело
+git checkout master - переход в ветку мастер
+git remote add origin https://github.com/VladimirGrebenev
+/IT-Proger-lesson-git.git   - подключаем путь для удалённого репозитория
+git push -u origin master - заливаем ветку мастер на удалённый репозитория
