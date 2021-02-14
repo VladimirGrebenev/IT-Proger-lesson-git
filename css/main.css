@@ -1,0 +1,77 @@
+
+/*не успел адаптировать под экраны, долго разбирался с задним фоном картинкой и тенью на неё*/
+
+.first-section {
+    background-image: url("../images/mountains.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.first-section:after {
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.first-section .jumbotron {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron .container {
+    max-width: 40%;
+    padding-top: 16.6%;
+    padding-bottom: 16.6%;
+}
+
+.second-section .jumbotron .container {max-width: 80%;}
+
+.second-section .jumbotron {background-color: #fff;}
+
+.third-section .container-fluid {
+    background-color: #fd4545;
+    margin: 0;
+}
+
+.fourth-section {
+    background-image: url("../images/websait.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.fourth-section:before {
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    /*top: 0;*/
+    width: 100%;
+    z-index: 1;
+}
+
+.fourth-section .jumbotron {
+    position: relative;
+    z-index: 2;
+}
+
+.servise {
+    width: 300px;
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none}
+
+ul {list-style: none}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    background: white;
+    color: grey;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #dc7777;
+}
+
+/*Оформление хедера*/
+
+header {
+    width: 100%;
+    background: #3d3d3d;
+    border-bottom: #6f6f6f solid 4px;
+    padding: 20px 0px;
+    float: left;
+    position: fixed;
+}
+
+header .all-header {
+    width: 80%;
+    margin: 0 10%;
+}
+
+header .all-header .logo {
+    float: left;
+    font-size: 20px;
+    color: #dc7777;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+}
+
+header .all-header .menu {
+    float: left;
+    position: absolute;
+    left: 45%;
+}
+
+header .all-header .menu .btn {
+    position: relative;
+    float: left;
+    right: 55%;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    background: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+}
+
+header .all-header .menu .btn:hover {
+    outline: 2px solid #dc7777;
+}
+
+header .all-header .menu .btn:active {
+    background: #dc7777;
+    outline: 2px solid #dc7777;
+}
+
+
+#search {
+    float: right;
+    border: 0;
+    background: #e8e9e9;
+    color: #757474;
+    width: 22%;
+    height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    text-indent: 20px;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 5px;
+}
+
+#search:hover {
+    background: white;
+}
+
+/*/формление основного блока*/
+
+main {
+    float: left;
+    width: 80%;
+    margin: 120px 10%;
+}
+
+main .artical {
+    float: left;
+    width: 60%;
+    margin: 0;
+    padding: 40px;
+    background: #f6f5f5;
+    border: 1px solid #c0c0c0;
+    -webkit-box-shadow: 1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+    -moz-box-shadow:    1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+    box-shadow:         1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+}
+
+main .artical img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+main .right-side-block {
+    float: right;
+    width: 20%;
+    padding: 20px;
+    background: #f6f5f5;
+    border: 1px solid #c0c0c0;
+    -webkit-box-shadow: 1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+    -moz-box-shadow:    1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+    box-shadow:         1px 2px 1px 0px rgba(192, 192, 192, 0.6);
+}
+/*футер*/
+
+footer {
+    width: 100%;
+    background: #3d3d3d;
+    border-top: #6f6f6f solid 4px;
+    padding: 20px 0px;
+    float: left;
+    color: white;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .social-block {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+footer .social-button {
+    position: relative;
+    float: left;
+    right: 50%;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 6px;
+}
+
+#btn-youtube {
+    background: #dc7777;
+}
+
+#btn-youtube:hover {
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(220, 119, 119, 0.64);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(220, 119, 119, 0.64);
+    box-shadow:         0px 1px 15px 0px rgba(220, 119, 119, 0.64);
+}
+
+#btn-youtube:active {
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(220, 119, 119, 1);
+    -moz-box-shadow:    0px 1px 30px 0px rgba(220, 119, 119, 1);
+    box-shadow:         0px 1px 30px 0px rgba(220, 119, 119, 1);
+}
+
+#btn-twitter {
+    background: #78b5dc;
+}
+
+#btn-twitter:hover {
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(120, 181, 220, 0.64);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(120, 181, 220, 0.64);
+    box-shadow:         0px 1px 15px 0px rgba(120, 181, 220, 0.64);
+}
+
+#btn-twitter:active {
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(120, 181, 220, 1);
+    -moz-box-shadow:    0px 1px 30px 0px rgba(120, 181, 220, 1);
+    box-shadow:         0px 1px 30px 0px rgba(120, 181, 220, 1);
+}
+
+#btn-facebook {
+    background: #6a71a9;
+}
+
+#btn-facebook:hover {
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(106, 113, 169, 0.64);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(106, 113, 169, 0.64);
+    box-shadow:         0px 1px 15px 0px rgba(106, 113, 169, 0.64);
+}
+
+#btn-facebook:active {
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(106, 113, 169, 1);
+    -moz-box-shadow:    0px 1px 30px 0px rgba(106, 113, 169, 1);
+    box-shadow:         0px 1px 30px 0px rgba(106, 113, 169, 1);
+}
+
+#btn-instagram {
+    background: #a9886a;
+}
+
+#btn-instagram:hover {
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(169, 136, 106, 0.64);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(169, 136, 106, 0.64);
+    box-shadow:         0px 1px 15px 0px rgba(169, 136, 106, 0.64);
+}
+
+#btn-instagram:active {
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(169, 136, 106, 1);
+    -moz-box-shadow:    0px 1px 30px 0px rgba(169, 136, 106, 1);
+    box-shadow:         0px 1px 30px 0px rgba(169, 136, 106, 1);
+}
+
+#copyright {
+    position: relative;
+    text-align: left;
+    width: 98%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
